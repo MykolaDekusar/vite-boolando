@@ -140,16 +140,18 @@ h4 {
 }
 
 /* ON IMAGE TAGS */
-.discount {
-    position: absolute;
-    left: 0;
-    bottom: 110px;
-    padding: 5px 10px;
-}
+
 
 .sostenibilità {
     position: absolute;
     left: 50px;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
     bottom: 110px;
     padding: 5px 10px;
 }

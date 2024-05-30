@@ -6,10 +6,10 @@ import AppFooter from './components/AppFooter.vue'
 export default {
     name: "Main",
     components: {
-    AppHeader,
-    AppCard,
-    AppFooter,
-},
+        AppHeader,
+        AppCard,
+        AppFooter,
+    },
 };
 
 </script>
@@ -21,12 +21,7 @@ export default {
   <main>
     <div class="container">
         <div class="row-2 flex wrap gap-25">
-            <AppCard/>
-            <AppCard/>
-            <AppCard/>
-            <AppCard/>
-            <AppCard/>
-            <AppCard/>
+            <AppCard />
         </div>
     </div>
   </main>
