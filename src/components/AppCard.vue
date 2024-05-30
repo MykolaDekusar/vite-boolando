@@ -5,8 +5,8 @@ export default {
         return {
             cards: [
                 {
-                    mainImg: "/public/img/1.webp",
-                    offImg : "/public/img/1b.webp",
+                    mainImg: "/img/1.webp",
+                    offImg : "/img/1b.webp",
                     brand: "Levi's",
                     name: "RELAXED FIT TEE UNISEX",
                     price:"14.99",
@@ -15,8 +15,8 @@ export default {
                     sus:true,
                 },
                 {
-                    mainImg: "/public/img/2.webp",
-                    offImg : "/public/img/2b.webp",
+                    mainImg: "/img/2.webp",
+                    offImg : "/img/2b.webp",
                     brand: "Guess",
                     name: "ROSES TEE",
                     price:"20,99",
@@ -25,8 +25,8 @@ export default {
                     sus: false,
                 },
                 {
-                    mainImg: "/public/img/3.webp",
-                    offImg : "/public/img/3b.webp",
+                    mainImg: "/img/3.webp",
+                    offImg : "/img/3b.webp",
                     brand: "Come Zucchero Filato",
                     name: "VOGLIA DI COLORI PASTELLO",
                     price:"129,99",
@@ -35,8 +35,8 @@ export default {
                     sus:false,
                 },
                 {
-                    mainImg: "/public/img/4.webp",
-                    offImg : "/public/img/4b.webp",
+                    mainImg: "/img/4.webp",
+                    offImg : "/img/4b.webp",
                     brand: "Levi's",
                     name: "TEE UNISEX",
                     price:"14.99",
@@ -45,8 +45,8 @@ export default {
                     sus:true,
                 },
                 {
-                    mainImg: "/public/img/5.webp",
-                    offImg : "/public/img/5b.webp",
+                    mainImg: "/img/5.webp",
+                    offImg : "/img/5b.webp",
                     brand: "Maya Deluxe",
                     name: "STRIPE BODICE",
                     price:"99,99",
@@ -55,8 +55,8 @@ export default {
                     sus:false,
                 },
                 {
-                    mainImg: "/public/img/6.webp",
-                    offImg : "/public/img/6b.webp",
+                    mainImg: "/img/6.webp",
+                    offImg : "/img/6b.webp",
                     brand: "Esprit",
                     name: "MAGLIONE - BLACK",
                     price:"29,99",

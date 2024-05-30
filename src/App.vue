@@ -1,13 +1,13 @@
 <script>
 import AppHeader from './components/AppHeader.vue'
-import AppCard from './components/AppCard.vue'
+import MainContainer from './components/MainContainer.vue'
 import AppFooter from './components/AppFooter.vue'
 
 export default {
     name: "Main",
     components: {
         AppHeader,
-        AppCard,
+        MainContainer,
         AppFooter,
     },
 };
@@ -15,16 +15,10 @@ export default {
 </script>
 
 <template>
-    <!-- header -->
+  <!-- header -->
   <AppHeader />
   <!-- main -->
-  <main>
-    <div class="container">
-        <div class="row-2 flex wrap gap-25">
-            <AppCard />
-        </div>
-    </div>
-  </main>
+  <MainContainer/>
   <!-- footer -->
   <AppFooter />
 </template>
