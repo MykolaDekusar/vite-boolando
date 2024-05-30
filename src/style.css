@@ -1,0 +1,190 @@
+/* SETUP INIZIALE */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* STILE HEADER */
+
+header {
+    background-color: rgb(255, 115, 0);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+.col-33-1 {
+    display: flex;
+    width: calc(100% / 3);
+    align-items: center;
+}
+
+.col-33-2 {
+    width: calc(100% / 3 - 16.7px);
+}
+
+.col-50 {
+    align-items: center;
+    width: 50%;
+    height: 100px;
+}
+
+.content img {
+    width: 100%;
+}
+
+/* UTILITY */
+.weight-700 {
+    font-weight: 700;
+}
+
+.img-fit {
+    object-fit: fill;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.flex {
+    display: flex;
+}
+
+main {
+    margin-top: 48.66px;
+    padding: 50px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.margin-y-10 {
+    margin: 0 10px;
+}
+
+.margin-x-10 {
+    margin: 10px 0;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.small-image-style {
+    width: 25px;
+    height: 25px;
+    filter: brightness(0) invert(1);
+}
+
+.logo-img {
+    width: 100px;
+}
+
+.gray-text-crossed {
+    color: gray;
+    text-decoration: line-through;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+h4 {
+    font-size: 15px;
+    margin: 20px 30px 10px 0;
+}
+
+.position-relative {
+    position: relative;
+}
+
+/* HOVER SETUP */
+.hover-img {
+    display: none;
+}
+
+.content:hover .main-img {
+    display: none;
+}
+
+.content:hover .hover-img {
+    display: inline-block;
+}
+
+/* ON IMAGE TAGS */
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+.sostenibilità {
+    position: absolute;
+    left: 50px;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+
+/* COLORS */
+.white-text {
+    color: white;
+}
+
+.red {
+    background-color: red;
+}
+
+.red-text {
+    color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.white {
+    background-color: white;
+}
+
+.heart:hover {
+    color: red;
+}
+
+/* HEART SETTINGS */
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px 15px;
+    font-size: 30px;
+}

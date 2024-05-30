@@ -1,10 +1,18 @@
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from './components/AppHeader.vue'
+
+export default {
+    name: "Main",
+    components: {
+    AppHeader,
+},
+};
+
 </script>
 
 <template>
-  
+  <AppHeader />
 </template>
 
-<style scoped>
+<style>
 </style>
