@@ -85,3 +85,59 @@ export default {
         </div>
     </div>
 </template>
+
+<style scoped lang="scss">
+@use '/src/assets/snippets/colors' as *;
+/* ON IMAGE TAGS */
+.sostenibilità {
+    position: absolute;
+    left: 50px;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+.discount {
+    position: absolute;
+    left: 0;
+    bottom: 110px;
+    padding: 5px 10px;
+}
+
+/* CONTENT */
+.content img {
+    width: 100%;
+}
+
+// IMG SETUP
+.img-fit {
+    object-fit: fill;
+}
+
+/* HOVER SETUP */
+.hover-img {
+    display: none;
+}
+
+.content:hover .main-img {
+    display: none;
+}
+
+.content:hover .hover-img {
+    display: inline-block;
+}
+
+/* DISCOUNTS */
+.gray-text-crossed {
+    color: $gray;
+    text-decoration: line-through;
+}
+
+/* HEART SETTINGS */
+.heart {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    padding: 5px 15px;
+    font-size: 30px;
+}
+</style>

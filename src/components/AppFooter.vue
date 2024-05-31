@@ -41,3 +41,10 @@ export default {
         </div>
     </footer>
 </template>
+
+<style scoped lang="scss">
+@use '/src/assets/snippets/_colors.scss' as *;
+footer {
+    background-color: $footer-color;
+}
+</style>

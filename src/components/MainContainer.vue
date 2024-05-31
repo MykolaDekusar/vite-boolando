@@ -18,3 +18,10 @@ export default {
     </div>
   </main>
 </template>
+
+<style scoped>
+main {
+    margin-top: 48.66px;
+    padding: 50px 0;
+}
+</style>

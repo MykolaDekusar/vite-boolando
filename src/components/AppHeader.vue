@@ -49,3 +49,21 @@ export default {
         </div>
     </header>
 </template>
+
+<style scoped lang="scss">
+@use '/src/assets/snippets/colors' as *;
+
+header {
+    background-color: $header-color;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+    .logo-img {
+    width: 100px;
+}
+}
+</style>
