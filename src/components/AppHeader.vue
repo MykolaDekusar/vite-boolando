@@ -10,6 +10,7 @@ export default {
                     sel3:"Bambini"
                 },
             ],
+            logoImg: "/img/boolean-logo.png",
             headerIcons: [
             {
                 source1: "https://img.icons8.com/forma-thin/24/user.png",
@@ -37,7 +38,7 @@ export default {
                     <a class="white-text" href="">{{opz.sel3}}</a>
                 </div>
                 <div class="col-33-1 justify-center ">
-                    <img class="logo-img" src="/img/boolean-logo.png" alt="Logo Boolean">
+                    <img class="logo-img" :src="this.logoImg" alt="Logo Boolean">
                 </div>
                 <div class="col-33-1 justify-right" v-for = "icons in headerIcons">
                     <a href=""><img class="small-image-style" :src="icons.source1" :alt="icons.alt1"/></a>
