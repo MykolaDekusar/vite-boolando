@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue'
 import MainContainer from './components/MainContainer.vue'
 import AppFooter from './components/AppFooter.vue'
 
+
 export default {
     name: "Main",
     components: {
